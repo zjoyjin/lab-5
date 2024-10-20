@@ -1,4 +1,4 @@
-# Lab: Logout
+# Lab 5: Logout
 
 ## Preamble
 
@@ -12,7 +12,7 @@ We have created all the Clean Architecture classes necessary for the logout use 
 
 By Friday, your team will submit:
 - your completed lab code [for credit]
-- a draft of your project blueprint proposal. [not for credit]
+- a draft of your project blueprint proposal. [required, but not for credit]
 
 # Phase 2 [for credit]
 _(recall, Phase 1 was your solo task of adding the storage of the currently-logged-in user)_
@@ -85,7 +85,7 @@ Once the TODOs are all complete, the "Log Out" button _should_ work!
 
 As a team, split up the TODOs (see below) between the members of your team.
 
-There are TODOs in six of the files.
+There are TODOs in seven of the files.
 Make sure each member has at least one TODO which they will be responsible for completing.
 If your team prefers to work in pairs, that is fine too. Your individual branches
 will not be graded for this — only the final, working version.
@@ -94,12 +94,17 @@ The TODOs are summarized below (by file) to help your team decide how to split t
 
 * * *
 
+- `Main.java`
+   -[ ] TODO: add the Logout Use Case to the app using the appBuilder
+
+* * *
+
 - `LoggedInView.java` (tip: refer to the other views for similar code)
    -[ ] TODO: save the logout controller in the instance variable.
    -[ ] TODO: execute the logout use case through the Controller
 
 * * *
-- 
+
 - `LogoutController.java` (tip: refer to the other controllers for similar code)
    -[ ] TODO: Save the interactor in the instance variable.
    -[ ] TODO: run the use case interactor for the logout use case
@@ -138,8 +143,8 @@ git branch paul.gries
 git switch paul.gries
 ```
 
-2. Complete your assigned TODO and make a pull request on GitHub. In your pull request,
-   briefly describe what your TODO was and how you implemented it. If you aren't sure
+2. Complete your assigned TODOs and make a pull request on GitHub. In your pull request,
+   briefly describe what your TODOs were and how you implemented them. If you aren't sure
    about part of it, include this in your pull request so everyone knows what to look
    for when reviewing — or you can of course discuss with your team before making your
    pull request since you are physically working in the same space.
@@ -147,7 +152,8 @@ git switch paul.gries
      may cause issues for your other teammates, as some files contain
      configurations specific to your individual IntelliJ projects.**
 
-3. Review each other's pull requests to ensure each TODO is correctly implemented.
+3. Review each other's pull requests to ensure each TODO is correctly implemented and that
+   there are no Checkstyle issues in the files that were modified.
 
 4. Once all TODOs are completed, your team should debug as needed to ensure the
    correctness of the code. Setting a breakpoint where the log-out use case
