@@ -30,9 +30,9 @@ your code and review. To prevent others from pushing directly to the main branch
 we recommend you set branch protection rules on GitHub. Below are how the settings might look if you
 add branch protection rules:
 
-![image of branch protection rules for main
-with the requirement of two approvers to
-merge in pull requests.](images/branch_protection_rules.png)
+![image of branch protection rules for main with the
+requirement of two approvers to merge in pull requests.
+](images/branch_protection_rules.png)
 
 * * *
 
@@ -95,39 +95,47 @@ The TODOs are summarized below (by file) to help your team decide how to split t
 * * *
 
 - `Main.java`
-   -[ ] TODO: add the Logout Use Case to the app using the appBuilder
+
+  - [ ] TODO: add the Logout Use Case to the app using the appBuilder
 
 * * *
 
 - `LoggedInView.java` (tip: refer to the other views for similar code)
-   -[ ] TODO: save the logout controller in the instance variable.
-   -[ ] TODO: execute the logout use case through the Controller
+
+  - [ ] TODO: save the logout controller in the instance variable.
+  - [ ] TODO: execute the logout use case through the Controller
 
 * * *
 
 - `LogoutController.java` (tip: refer to the other controllers for similar code)
-   -[ ] TODO: Save the interactor in the instance variable.
-   -[ ] TODO: run the use case interactor for the logout use case
+
+  - [ ] TODO: Save the interactor in the instance variable.
+  - [ ] TODO: run the use case interactor for the logout use case
 
 * * *
 
 - `LogoutInputData.java` (should be done with the LogoutInteractor TODOs below)
-    -[ ] TODO: save the current username in an instance variable and add a getter.
+
+  - [ ] TODO: save the current username in an instance variable and add a getter.
+
 - `LogoutInteractor.java` (tip: refer to `ChangePasswordInteractor.java` for similar code)
-   -[ ] TODO: save the DAO and Presenter in the instance variables.
-   -[ ] TODO: implement the logic of the Logout Use Case
+
+  - [ ] TODO: save the DAO and Presenter in the instance variables.
+  - [ ] TODO: implement the logic of the Logout Use Case
 
 * * *
 
 - `LogoutOutputData.java`
-   -[ ] TODO: save the parameters in the instance variables.
+
+  - [ ] TODO: save the parameters in the instance variables.
 
 * * *
 
 - `LogoutPresenter.java` (tip: refer to `SignupPresenter.java` for similar code)
-   -[ ] TODO: assign to the three instance variables.
-   -[ ] TODO: have prepareSuccessView update the LoggedInState
-   -[ ] TODO: have prepareSuccessView update the LoginState
+
+  - [ ] TODO: assign to the three instance variables.
+  - [ ] TODO: have prepareSuccessView update the LoggedInState
+  - [ ] TODO: have prepareSuccessView update the LoginState
 
 * * *
 
