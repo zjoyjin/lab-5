@@ -30,9 +30,9 @@ your code and review. To prevent others from pushing directly to the main branch
 we recommend you set branch protection rules on GitHub. Below are how the settings might look if you
 add branch protection rules:
 
-![image of branch protection rules for main
-with the requirement of two approvers to
-merge in pull requests.](images/branch_protection_rules.png)
+![image of branch protection rules for main with the
+requirement of two approvers to merge in pull requests.
+](images/branch_protection_rules.png)
 
 * * *
 
@@ -95,13 +95,15 @@ The TODOs are summarized below (by file) to help your team decide how to split t
 * * *
 
 - `Main.java`
-   -[ ] TODO: add the Logout Use Case to the app using the appBuilder
+
+  - [ ] TODO: add the Logout Use Case to the app using the appBuilder
 
 * * *
 
 - `LoggedInView.java` (tip: refer to the other views for similar code)
-   -[ ] TODO: save the logout controller in the instance variable.
-   -[ ] TODO: execute the logout use case through the Controller
+
+  - [ ] TODO: save the logout controller in the instance variable.
+  - [ ] TODO: execute the logout use case through the Controller
 
 * * *
 
